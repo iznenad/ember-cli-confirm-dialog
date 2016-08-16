@@ -1,0 +1,19 @@
+<div class="modal fade in" style="display: block">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a data-dismiss="modal" {{action 'close'}}>
+          <span class="icon-icn_close"></span>
+        </a>
+        <h4 class="modal-title">{{title}}</h4>
+      </div>
+      <div class="modal-body">
+        <p>{{confirmationMsg}}</p>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" {{action 'close'}}>Cancel</button>
+          <button type="button" class="btn btn-primary" {{action 'proceed'}}>Proceed</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
