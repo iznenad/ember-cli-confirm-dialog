@@ -10,8 +10,8 @@
       <div class="modal-body">
         <p>{{confirmationMsg}}</p>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal" {{action 'close'}}>Cancel</button>
-          <button type="button" class="btn btn-primary" {{action 'proceed'}}>Proceed</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal" {{action 'close'}}>{{t 'ember-cli-confirm-dialog.cancel'}}</button>
+          <button type="button" class="btn btn-primary" {{action 'proceed'}}>{{t 'ember-cli-confirm-dialog.proceed'}}</button>
         </div>
       </div>
     </div>
